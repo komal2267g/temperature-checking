@@ -1,0 +1,15 @@
+# Finish the following code so that it prints You have a fever if your temperature is above 100 and otherwise prints You don't have a fever.
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter a temperature:");
+        double temperature = sc.nextDouble();
+        if (temperature>100){
+            System.out.print("you have a fever");
+        }else{
+            System.out.print("you don't have fever");
+        }
+    }
+}
